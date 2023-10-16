@@ -1,6 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@page isELIgnored="false"%>
-/* This is a single-line comment */
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-success">
 	<div class="container-fluid">
 		<a class="navbar-brand" href="index.jsp"><i
@@ -20,11 +20,11 @@
 							class="fas fa-sign-in-alt"></i> ADMIN</a></li>
 
 					<li class="nav-item"><a class="nav-link active"
-						aria-current="page" href="doctor_login.jsp">DOCTOR</a></li>
+						aria-current="page" href="doctor_login.jsp"> DOCTOR</a></li>
 					<li class="nav-item"><a class="nav-link active"
-						aria-current="page" href="user_appointment.jsp">APPOINTMENT</a></li>
+						aria-current="page" href="user_appointment.jsp"> APPOINTMENT</a></li>
 					<li class="nav-item"><a class="nav-link active"
-						aria-current="page" href="user_login.jsp">USER</a></li>
+						aria-current="page" href="user_login.jsp"> USER</a></li>
 
 				</c:if>
 
